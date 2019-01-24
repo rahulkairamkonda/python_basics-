@@ -1,0 +1,13 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Fri Dec 21 10:17:53 2018
+
+@author: Deepali Vora
+"""
+
+url ="D:\\PythonPrg\\VIT\\VCC\\Dec2018\Sample\\girls_age_weight_height_2_8.csv"
+#url = "d:\\phd\\Impl\\Dataset-All-New.xlsx"
+names = ['AGE','WEIGHT','HEIGHT']
+#Read Data
+#dataframe = pd.read_excel(url, names=names)
+dataframe = pd.read_excel(url, names=names)
